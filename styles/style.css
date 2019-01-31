@@ -132,6 +132,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+h2 {
+  color: #50E3C2; }
+
 .indexHeader {
   background: url(../assets/home-image-1.jpg); }
 
@@ -140,5 +143,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 .contactHeader {
   background: url(../assets/contact-image-1.jpg); }
+
+.banner {
+  background: url(../assets/banner-image.jpg);
+  min-height: 500px; }
 
 /*# sourceMappingURL=style.css.map */
