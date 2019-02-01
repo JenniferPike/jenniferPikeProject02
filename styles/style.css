@@ -132,8 +132,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.logo {
+  color: #50E3C2;
+  font-family: "Playfair Display SC", "serif";
+  weight: 900i;
+  font-size: 34.6px; }
+
 h2 {
-  color: #50E3C2; }
+  margin: 0; }
 
 .indexHeader {
   background: url(../assets/home-image-1.jpg); }

@@ -1,4 +1,10 @@
-h2{
-    color: $acPrimary;
+.logo{
+    color:$accent1;
+    font-family: $secondaryFont;
+    weight: 900i;
+    font-size:34.6px;
+}
 
+h2{
+    margin:0;
 }
