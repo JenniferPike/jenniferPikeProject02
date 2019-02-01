@@ -1,12 +1,15 @@
+//GLOBAL STYLES PARTIALS
 @import "partials/setup";
 @import "partials/variables";
 @import "partials/typography";
+@import "partials/global";
 
-
-//GLOBAL STYLES PARTIALS
 
 //INDEX STYLE PARTIALS
 @import "partials/header";
+@import "partials/sectionVisit";
+@import "partials/photoGallery";
+@import "partials/menuOptions"
 
 
 // BLOG STYLE PARTIALS

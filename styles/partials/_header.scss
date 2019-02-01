@@ -11,4 +11,12 @@
     background:url(../assets/banner-image.jpg);
     min-height:500px;
 }
+.topNav a{
+    padding:25px;
+}
+.topNav ul{
+    display: flex;
+    flex-direction: row;
+}
+
 

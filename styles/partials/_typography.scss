@@ -1,10 +1,69 @@
+h1{
+   color:$accent2;
+   font-family:$secondaryFont;
+   font-weight:900i;
+   font-size:111.2px;
+}
+.welcome{
+    color:$fcSecondary;
+    font-family:$primaryFont;
+    font-weight: 700;
+    font-size: 62px;
+    line-height:58px;
+    letter-spacing: 6.7px;
+
+}
 .logo{
     color:$accent1;
     font-family: $secondaryFont;
-    weight: 900i;
+    font-weight: 900i;
     font-size:34.6px;
 }
-
 h2{
+    color:$fcSecondary;
     margin:0;
+    font-family:$primaryFont;
+    font-weight:700;
+    font-size:35px;
+    line-height:58px;
+    letter-spacing: 3.8px;
 }
+.topNav a{
+    color:#FFFFFF;
+    font-family:$primaryFont;
+    font-weight:700;
+    font-size:20px;
+    line-height:32px;
+    letter-spacing:2px;  
+}
+.topNav a:hover{
+    color:$accent1;
+}
+p{
+    color:$fcPrimary;
+    font-family:$primaryFont ;
+    font-weight:400;
+    font-size:20px;
+    line-height:32px;
+    letter-spacing:2px;
+}
+button{
+   font-family:$secondaryFont;
+   font-weight:900i;
+   font-size:20px;
+   text-align: center;
+   line-height:32px;
+   letter-spacing:1px;
+}
+//menuOptions
+.menuItem a{
+    color:$fcSecondary;
+    font-family:$primaryFont;
+    font-weight:700;
+    font-size:30px;
+    line-height:58px;
+    letter-spacing:3.2px;
+}
+
+
+

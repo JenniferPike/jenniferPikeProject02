@@ -132,14 +132,78 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+h1 {
+  color: #063974;
+  font-family: "Playfair Display SC", "serif";
+  font-weight: 900i;
+  font-size: 111.2px; }
+
+.welcome {
+  color: #0C5F4C;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 58px;
+  letter-spacing: 6.7px; }
+
 .logo {
   color: #50E3C2;
   font-family: "Playfair Display SC", "serif";
-  weight: 900i;
+  font-weight: 900i;
   font-size: 34.6px; }
 
 h2 {
-  margin: 0; }
+  color: #0C5F4C;
+  margin: 0;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 58px;
+  letter-spacing: 3.8px; }
+
+.topNav a {
+  color: #FFFFFF;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2px; }
+
+.topNav a:hover {
+  color: #50E3C2; }
+
+p {
+  color: #2C2C2C;
+  font-family: "Lato", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2px; }
+
+button {
+  font-family: "Playfair Display SC", "serif";
+  font-weight: 900i;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px; }
+
+.menuItem a {
+  color: #0C5F4C;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 58px;
+  letter-spacing: 3.2px; }
+
+ul {
+  list-style-type: none; }
+  ul li a {
+    text-decoration: none; }
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto; }
 
 .indexHeader {
   background: url(../assets/home-image-1.jpg); }
@@ -153,5 +217,51 @@ h2 {
 .banner {
   background: url(../assets/banner-image.jpg);
   min-height: 500px; }
+
+.topNav a {
+  padding: 25px; }
+
+.topNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.sectionVisit {
+  background: #FAFFFE; }
+
+.findOutMore, .readMore {
+  color: #ffffff;
+  background: #063974; }
+
+.findOutMore {
+  padding: 11px 16px; }
+
+.readMore {
+  padding: 9px 15px; }
+
+.visitImg img {
+  -webkit-box-shadow: -17px 15px #50E3C2;
+  box-shadow: -17px 15px #50E3C2; }
+
+.photoGallery {
+  background: #D2F9F1; }
+
+.menuOptions {
+  background-color: #FAFFFE; }
+
+.menuItem a {
+  text-decoration: none; }
+
+i.fas {
+  color: white;
+  background: teal;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

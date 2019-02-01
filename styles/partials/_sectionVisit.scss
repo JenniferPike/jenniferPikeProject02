@@ -1,0 +1,16 @@
+.sectionVisit{
+    background:$bgSecondary;
+}
+.findOutMore, .readMore{
+    color:#ffffff;// white
+    background:$accent2;   
+}
+.findOutMore{
+    padding: 11px 16px;
+}
+.readMore{
+    padding: 9px 15px;
+}
+.visitImg img{
+    box-shadow:-17px 15px $accent1;
+}
