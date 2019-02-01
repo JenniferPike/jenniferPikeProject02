@@ -1,5 +1,7 @@
 .indexHeader{
     background:url(../assets/home-image-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .blogHeader{
     background:url(../assets/blog-image-1.jpg);
@@ -14,9 +16,13 @@
 .topNav a{
     padding:25px;
 }
+.topNav a:hover{
+    color:$accent1;
+}
 .topNav ul{
     display: flex;
     flex-direction: row;
 }
+
 
 

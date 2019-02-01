@@ -36,9 +36,6 @@ h2{
     line-height:32px;
     letter-spacing:2px;  
 }
-.topNav a:hover{
-    color:$accent1;
-}
 p{
     color:$fcPrimary;
     font-family:$primaryFont ;
@@ -64,6 +61,19 @@ button{
     line-height:58px;
     letter-spacing:3.2px;
 }
+// travelStories styles
+.travelStories h2{
+    color:$accent2;
+}
 
+// blog page Header styles
+.blogHeader, .contactHeader{
+    color:white;
+    font-family:$primaryFont;
+    font-weight:700;
+    font-size:87px;
+    line-height:58px;
+    letter-spacing:9px;
+}
 
 

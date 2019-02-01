@@ -169,9 +169,6 @@ h2 {
   line-height: 32px;
   letter-spacing: 2px; }
 
-.topNav a:hover {
-  color: #50E3C2; }
-
 p {
   color: #2C2C2C;
   font-family: "Lato", "sans-serif";
@@ -196,6 +193,17 @@ button {
   line-height: 58px;
   letter-spacing: 3.2px; }
 
+.travelStories h2 {
+  color: #063974; }
+
+.blogHeader, .contactHeader {
+  color: white;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 87px;
+  line-height: 58px;
+  letter-spacing: 9px; }
+
 ul {
   list-style-type: none; }
   ul li a {
@@ -206,7 +214,9 @@ ul {
   margin: 0 auto; }
 
 .indexHeader {
-  background: url(../assets/home-image-1.jpg); }
+  background: url(../assets/home-image-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .blogHeader {
   background: url(../assets/blog-image-1.jpg); }
@@ -220,6 +230,9 @@ ul {
 
 .topNav a {
   padding: 25px; }
+
+.topNav a:hover {
+  color: #50E3C2; }
 
 .topNav ul {
   display: -webkit-box;
@@ -258,10 +271,36 @@ ul {
 
 i.fas {
   color: white;
-  background: teal;
+  background: #50E3C2;
   padding: 10px;
   border-radius: 50%;
   text-align: center;
   margin-right: 10px; }
+
+.menuItem a:hover {
+  color: #50E3C2; }
+
+.travelStories {
+  background: #D2F9F1; }
+
+.image1 img {
+  -webkit-box-shadow: 23px 22px #50E3C2;
+  box-shadow: 23px 22px #50E3C2; }
+
+.image2 img {
+  -webkit-box-shadow: 26px 30px #50E3C2;
+  box-shadow: 26px 30px #50E3C2; }
+
+.indexFooter {
+  background: #FAFFFE; }
+
+.copywrite {
+  background: #2C2C2C; }
+
+.copywrite p {
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 15px; }
 
 /*# sourceMappingURL=style.css.map */

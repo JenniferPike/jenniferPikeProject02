@@ -6,9 +6,12 @@
 }
 i.fas{
     color: white;
-    background: teal;
+    background: $accent1;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
     margin-right:10px;
+}
+.menuItem a:hover {
+    color:$accent1;
 }
