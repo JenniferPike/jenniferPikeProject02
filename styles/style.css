@@ -177,7 +177,7 @@ p {
   line-height: 32px;
   letter-spacing: 2px; }
 
-button {
+button, .submitStyle, .contactForm {
   font-family: "Playfair Display SC", "serif";
   font-weight: 900i;
   font-size: 20px;
@@ -185,18 +185,17 @@ button {
   line-height: 32px;
   letter-spacing: 1px; }
 
-.menuItem a {
+.menuItem h2, .menuItem a {
   color: #0C5F4C;
   font-family: "Lato", "sans-serif";
   font-weight: 700;
   font-size: 30px;
-  line-height: 58px;
-  letter-spacing: 3.2px; }
+  line-height: 58px; }
 
 .travelStories h2 {
   color: #063974; }
 
-.blogHeader, .contactHeader {
+.blogH1, .contactH1 {
   color: white;
   font-family: "Lato", "sans-serif";
   font-weight: 700;
@@ -204,13 +203,36 @@ button {
   line-height: 58px;
   letter-spacing: 9px; }
 
+h3 {
+  color: #063974;
+  font-style: italic;
+  font-size: 22px; }
+
+.BBBB {
+  color: purple;
+  border-radius: 50%; }
+
+.commentSection h2 {
+  color: #2C2C2C; }
+
+.placeholderStyle {
+  font-family: "Lato", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 2px; }
+
+label {
+  display: none; }
+
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0; }
   ul li a {
     text-decoration: none; }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 0 auto; }
 
 .indexHeader {
@@ -223,6 +245,12 @@ ul {
 
 .contactHeader {
   background: url(../assets/contact-image-1.jpg); }
+
+.blogHeader, .contactHeader {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 70vh; }
 
 .banner {
   background: url(../assets/banner-image.jpg);
@@ -243,6 +271,31 @@ ul {
   -ms-flex-direction: row;
   flex-direction: row; }
 
+.blogH1, .contactH1 {
+  margin: 0; }
+
+.contactBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.indexTitle h1 {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .sectionVisit {
   background: #FAFFFE; }
 
@@ -261,7 +314,16 @@ ul {
   box-shadow: -17px 15px #50E3C2; }
 
 .photoGallery {
-  background: #D2F9F1; }
+  background: #D2F9F1;
+  min-height: 600px; }
+
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.images {
+  width: 100%; }
 
 .menuOptions {
   background-color: #FAFFFE; }
@@ -269,13 +331,14 @@ ul {
 .menuItem a {
   text-decoration: none; }
 
-i.fas {
-  color: white;
+.icons {
   background: #50E3C2;
-  padding: 10px;
-  border-radius: 50%;
+  width: 56px;
   text-align: center;
-  margin-right: 10px; }
+  border-radius: 50%; }
+
+i.fas {
+  color: white; }
 
 .menuItem a:hover {
   color: #50E3C2; }
@@ -302,5 +365,95 @@ i.fas {
   margin: 0;
   text-align: center;
   padding: 15px; }
+
+.blogMain, .blogFooter {
+  background: bgSecondary; }
+
+.blogImage img {
+  -webkit-box-shadow: 21px 17px #50E3C2;
+  box-shadow: 21px 17px #50E3C2; }
+
+.blogArticle {
+  -webkit-transform: translateY(-153px);
+  -ms-transform: translateY(-153px);
+  transform: translateY(-153px);
+  border-right: 3px solid #50E3C2;
+  border-bottom: 3px solid #50E3C2; }
+
+.blogMain h2 {
+  padding-top: 36px; }
+
+.submitStyle {
+  color: white;
+  background: #063974;
+  border: none;
+  padding: 14px 355px; }
+
+.commentForm {
+  background: #FAFFFE;
+  width: 62%;
+  min-height: 500px;
+  padding: 70px 73px;
+  -webkit-box-shadow: 20px 17px #50E3C2;
+  box-shadow: 20px 17px #50E3C2;
+  -webkit-transform: translateY(-150px);
+  -ms-transform: translateY(-150px);
+  transform: translateY(-150px); }
+
+.contactForm {
+  color: white;
+  background: #063974;
+  border: none;
+  padding: 1% 43%; }
+
+.placeholderStyle {
+  border: none;
+  border-bottom: 2px solid #50E3C2;
+  margin-bottom: 5%; }
+
+.placeholderStyle:nth-child(2) {
+  margin-right: 167px; }
+
+.message {
+  border: 2px solid #50E3C2;
+  padding: 5% 50% 14% 10%; }
+
+.contactFooter, .contactMain {
+  background: #FAFFFE; }
+
+.addressContact {
+  color: #2C2C2C; }
+
+.addressContact p {
+  margin: 0; }
+
+.addressContact h2 {
+  color: #2C2C2C;
+  font-family: "Lato", "sans-serif";
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+  letter-spacing: 2px; }
+
+.fab {
+  color: black;
+  font-weight: 700;
+  font-size: 25px; }
+
+.mediaContactContainer {
+  border: 3px solid purple;
+  width: 400px; }
+
+.socialMedia ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
+.socialMedia li {
+  padding-right: 28px; }
 
 /*# sourceMappingURL=style.css.map */

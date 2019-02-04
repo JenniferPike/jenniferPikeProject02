@@ -11,10 +11,9 @@
 <body>
     <header class="blogHeader">
         <div class="wrapper">
-            <div>
+            <div class="contactBar">
                 <h2 class="logo">Beachstays</h2>
-            </div>
-            <div>
+
                 <nav class="topNav">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
@@ -24,13 +23,13 @@
                     </ul>
                 </nav>
             </div>
-            <h1 class="blogHeader">Blog</h1>
+            <h1 class="blogH1">Blog</h1>
         </div>
     </header>
-    <main>
+    <main class="blogMain">
         <section>
-            <div class="wrapper">
-                <div>
+            <div class="wrapper blogArticle">
+                <div class="blogImage">
                     <img src="assets/post-image.jpg" alt="a photo of a white house, surrounded by trees and wood, with a deck walking up to it">
                 </div>
                 <div id="blog">
@@ -50,13 +49,13 @@
                         <img src="assets/sidebar-image.jpg" alt="a photo of two white cabins on the water, with trees and a cloudy sky in the background">
                     </div>
                     <div>
-                        <h2>Our Mission</h2>
+                        <h3>Our Mission</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error incidunt quae velit, quidem unde. Find out more</p>
     
-                        <h2>Recent Posts</h2>
+                        <h3>Recent Posts</h3>
                         <nav>
                             <ul>
-                                <li>
+                                <li class="blogStories">
                                     <a href="">Travel envy due to all this snow</a>
                                     <a href="">The sun is deceiving</a>
                                     <a href="">Don't go outside!</a>
@@ -69,7 +68,7 @@
             </div>
         </sidebar>
     </main>
-    <footer>
+    <footer class="blogFooter">
         <div class="wrapper">
             <div class="commentSection">
                 <h2>Comments:</h2>
@@ -78,7 +77,7 @@
                         <img src="assets/comment-image.jpg" alt="a profile photo of a man who made a comment on this post">
                     </div>
                     <div>
-                        <h2>Tuesday October 9th, 2019 by Reyansh</h2>
+                        <h3>Tuesday October 9th, 2019 by Reyansh</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eius corporis quod possimus modi aperiam saepe molestiae repellat amet. Cupiditate fugiat vitae nulla, incidunt eum aspernatur aperiam omnis quas. Minima, nulla laboriosam.</p>
                     </div>
                 </div>
@@ -87,22 +86,22 @@
                         <img src="assets/comment-image2.jpg" alt="profile photo of a women wearing a white tea shirt wearing orange sunglasses">
                     </div>
                     <div>
-                        <h2>Wednesday October 10th, 2019 by Olivia</h2>
+                        <h3>Wednesday October 10th, 2019 by Olivia</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut earum deserunt ipsa error debitis natus velit asperiores sed.</p>
                     </div>
                 </div>
                 <form action="" class="commentForm">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" placeholder="name" required id="name">
+                    <input type="text" name="name"  class="placeholderStyle"required id="name"placeholder="Name">
     
                     <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" required placeholder="email">
+                    <input type="email" name="email" id="email" class="placeholderStyle"required placeholder="Email">
     
                     <label for="comment">Add Comment:</label>
-                    <input type="text" name="addComment" id="comment" placeholder="Comment">
+                    <input type="text" name="addComment" id="comment" class="placeholderStyle" placeholder="Comment">
     
                     <label for="submit">Post Comment</label>
-                    <input type="submit" value="Post Comment" id="submit" name="submit">
+                    <input type="submit" value="Post Comment" id="submit" class="submitStyle" name="submit">
                 </form>
             </div>
         </div>

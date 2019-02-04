@@ -1,0 +1,26 @@
+.commentForm{
+    background:$bgSecondary;
+    width: 62%;
+    min-height: 500px;
+    padding: 70px 73px;
+    box-shadow:20px 17px $accent1;
+    transform:translateY(-150px)
+}
+.contactForm{
+    color:white;
+    background:$accent2;
+    border:none;
+    padding:1% 43%;
+}
+.placeholderStyle{
+    border:none;
+    border-bottom:2px solid $accent1;
+    margin-bottom: 5%;
+}
+.placeholderStyle:nth-child(2){
+    margin-right: 167px;
+}
+.message{
+    border:2px solid $accent1;
+    padding: 5% 50% 14% 10%;
+}

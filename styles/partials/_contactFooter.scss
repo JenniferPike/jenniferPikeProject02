@@ -1,0 +1,33 @@
+.contactFooter, .contactMain{
+    background:$bgSecondary;
+}
+.addressContact{
+    color:$fcPrimary;
+}
+.addressContact p{
+    margin:0;
+}
+.addressContact h2{
+    color:$fcPrimary;
+    font-family: "Lato", "sans-serif";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+.fab{
+    color:black;
+    font-weight: 700;
+    font-size: 25px;
+}
+.mediaContactContainer{
+    border:3px solid purple;
+    width:400px;
+}
+.socialMedia ul{
+    display:flex;
+    flex-direction:row;
+}
+.socialMedia li{
+    padding-right:28px;
+}

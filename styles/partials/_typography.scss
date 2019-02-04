@@ -44,7 +44,7 @@ p{
     line-height:32px;
     letter-spacing:2px;
 }
-button{
+button, .submitStyle, .contactForm{
    font-family:$secondaryFont;
    font-weight:900i;
    font-size:20px;
@@ -53,13 +53,12 @@ button{
    letter-spacing:1px;
 }
 //menuOptions
-.menuItem a{
+.menuItem h2, .menuItem a{
     color:$fcSecondary;
     font-family:$primaryFont;
     font-weight:700;
     font-size:30px;
     line-height:58px;
-    letter-spacing:3.2px;
 }
 // travelStories styles
 .travelStories h2{
@@ -67,13 +66,36 @@ button{
 }
 
 // blog page Header styles
-.blogHeader, .contactHeader{
+.blogH1, .contactH1{
     color:white;
     font-family:$primaryFont;
     font-weight:700;
     font-size:87px;
     line-height:58px;
     letter-spacing:9px;
+}
+h3{
+  color:$accent2; 
+  font-style: italic;
+  font-size:22px;
+}
+.BBBB{
+    color:purple;
+    border-radius:50%;
+}
+.commentSection h2{
+    color:$fcPrimary;
+}
+
+.placeholderStyle{
+    font-family:$primaryFont;
+    font-weight:300;
+    font-size:20px;
+    line-height:32px;
+    letter-spacing: 2px;
+}
+label{
+    display:none;
 }
 
 

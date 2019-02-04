@@ -1,3 +1,10 @@
 .photoGallery{
     background:$bgPrimary;
+    min-height:600px;
+}
+.photos{
+    display:flex;
+}
+.images{
+ width:100%;
 }

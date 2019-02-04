@@ -13,10 +13,8 @@
 <body>
     <header class="contactHeader">
         <div class="wrapper">
-            <div>
+            <div class="contactBar">
                 <h2 class="logo">Beachstays</h2>
-            </div>
-            <div>
                 <nav class="topNav">
                     <ul>
                         <li><a href="./index.html">Home</a></li>
@@ -26,30 +24,34 @@
                     </ul>
                 </nav>
             </div>
-            <h1 class='contactHeader'>Get in Touch</h1>
+            <div class="contactTitle">
+                <h1 class="contactH1">Get in Touch</h1>  
+            </div>
         </div>
     </header>
-    <main>
+    <main class="contactMain">
         <div class="wrapper">
-            <form action="" class="commentForm">
-                <label for="name">Name:</label>
-                <input type="text" name="name" placeholder="name" required id="name">
-            
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" required placeholder="email">
-            
-                <label for="comment">Add Comment:</label>
-                <input type="text" name="addComment" id="comment" placeholder="Comment">
-            
-                <label for="submit">Post Comment</label>
-                <input type="submit" value="Post Comment" id="submit" name="submit">
-            </form>
+            <div class="commentForm">
+                <form action="" >
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" class="placeholderStyle" placeholder="Name" required id="name">
+                
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" required class="placeholderStyle" placeholder="Email">
+                
+                    <label for="comment">Add Comment:</label>
+                    <input type="text" name="addComment" id="comment" class="placeholderStyle message" placeholder="Message">
+                
+                    <label for="submit">Submit</label>
+                    <input type="submit" value="Submit" class="contactForm" id="submit" name="submit">
+                </form>
+            </div>
         </div>
 
     </main>
-    <footer>
+    <footer class="contactFooter">
         <div class="wrapper">
-            <div>
+            <div class="mediaContactContainer">
                 <div class="socialMedia">
                     <nav>
                         <ul>

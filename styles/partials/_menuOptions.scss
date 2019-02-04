@@ -4,13 +4,14 @@
 .menuItem a{
     text-decoration:none;
 }
+.icons{
+    background: $accent1;
+    width: 56px;
+    text-align: center;
+    border-radius: 50%;
+}
 i.fas{
     color: white;
-    background: $accent1;
-    padding: 10px;
-    border-radius: 50%;
-    text-align: center;
-    margin-right:10px;
 }
 .menuItem a:hover {
     color:$accent1;
