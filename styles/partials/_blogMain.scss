@@ -12,3 +12,9 @@
 .blogMain h2{
     padding-top:36px;
 }
+.blogContainer{
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

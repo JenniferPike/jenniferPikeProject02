@@ -14,3 +14,18 @@
 .visitImg img{
     box-shadow:-17px 15px $accent1;
 }
+.mainInfo{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    min-height: 500px;
+    width:calc(100% - 20px);
+}
+.visitInfo{
+    width:62%;
+    padding:10px;
+}
+.visitImg{
+    padding:10px;
+}
+

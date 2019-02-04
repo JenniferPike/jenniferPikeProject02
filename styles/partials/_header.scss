@@ -2,6 +2,7 @@
     background:url(../assets/home-image-1.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    height:100vh;
 }
 .blogHeader{
     background:url(../assets/blog-image-1.jpg);
@@ -18,6 +19,8 @@
 .banner{
     background:url(../assets/banner-image.jpg);
     min-height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .topNav a{
     padding:25px;
@@ -41,5 +44,9 @@
     margin:0;
     display: flex;
     flex-direction: column;
+}
+.indexTitle{
+    display:flex;
+    justify-content: space-evenly;
 }
 

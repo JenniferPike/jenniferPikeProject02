@@ -20,14 +20,20 @@
     font-weight: 700;
     font-size: 25px;
 }
-.mediaContactContainer{
-    border:3px solid purple;
-    width:400px;
-}
 .socialMedia ul{
     display:flex;
     flex-direction:row;
 }
 .socialMedia li{
     padding-right:28px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.mediaContactContainer{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }

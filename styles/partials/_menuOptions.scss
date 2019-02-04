@@ -16,3 +16,13 @@ i.fas{
 .menuItem a:hover {
     color:$accent1;
 }
+.menuContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:start;
+    flex-wrap:wrap;
+}
+.menuItem{
+    width:48%;
+    padding:10px;
+}

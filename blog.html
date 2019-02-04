@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="blogHeader">
-        <div class="wrapper">
+        <div class="wrapper blogContainer">
             <div class="contactBar">
                 <h2 class="logo">Beachstays</h2>
 
@@ -50,7 +50,7 @@
                     </div>
                     <div>
                         <h3>Our Mission</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error incidunt quae velit, quidem unde. Find out more</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam error incidunt quae velit, quidem unde. <a href="#blog">Find out more</a></p>
     
                         <h3>Recent Posts</h3>
                         <nav>
@@ -90,17 +90,17 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut earum deserunt ipsa error debitis natus velit asperiores sed.</p>
                     </div>
                 </div>
-                <form action="" class="commentForm">
-                    <label for="name">Name:</label>
+                <form action="" class="blogForm">
+                    <label for="name" class="visuallyhidden">Name:</label>
                     <input type="text" name="name"  class="placeholderStyle"required id="name"placeholder="Name">
     
-                    <label for="email">Email Address</label>
+                    <label for="email" class="visuallyhidden">Email Address</label>
                     <input type="email" name="email" id="email" class="placeholderStyle"required placeholder="Email">
     
-                    <label for="comment">Add Comment:</label>
-                    <input type="text" name="addComment" id="comment" class="placeholderStyle" placeholder="Comment">
+                    <label for="comment" class="visuallyhidden">Add Comment:</label>
+                    <input type="text" name="addComment" id="comment" class="placeholderStyle comment" placeholder="Comment">
     
-                    <label for="submit">Post Comment</label>
+                    <label for="submit" class="visuallyhidden">Post Comment</label>
                     <input type="submit" value="Post Comment" id="submit" class="submitStyle" name="submit">
                 </form>
             </div>

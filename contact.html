@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="contactHeader">
-        <div class="wrapper">
+        <div class="wrapper headerContainer">
             <div class="contactBar">
                 <h2 class="logo">Beachstays</h2>
                 <nav class="topNav">
@@ -30,27 +30,23 @@
         </div>
     </header>
     <main class="contactMain">
-        <div class="wrapper">
+        <div class="wrapper flexContainer">
             <div class="commentForm">
                 <form action="" >
-                    <label for="name">Name:</label>
+                    <label class="visuallyhidden"for="name">Name:</label>
                     <input type="text" name="name" class="placeholderStyle" placeholder="Name" required id="name">
                 
-                    <label for="email">Email Address</label>
+                    <label class="visuallyhidden" for="email">Email Address</label>
                     <input type="email" name="email" id="email" required class="placeholderStyle" placeholder="Email">
                 
-                    <label for="comment">Add Comment:</label>
+                    <label for="comment" class="visuallyhidden">Add Comment:</label>
                     <input type="text" name="addComment" id="comment" class="placeholderStyle message" placeholder="Message">
                 
-                    <label for="submit">Submit</label>
+                    <label for="submit" class="visuallyhidden">Submit</label>
                     <input type="submit" value="Submit" class="contactForm" id="submit" name="submit">
                 </form>
             </div>
-        </div>
 
-    </main>
-    <footer class="contactFooter">
-        <div class="wrapper">
             <div class="mediaContactContainer">
                 <div class="socialMedia">
                     <nav>
@@ -72,6 +68,8 @@
                 </div>
             </div>
         </div>
+    </main>
+    <footer class="contactFooter">
         <div class="copywrite">
             <p>Copyrite &copy; 2019 HackerYou</p>
         </div>

@@ -1,10 +1,15 @@
 .photoGallery{
     background:$bgPrimary;
-    min-height:600px;
+    min-height:650px;
 }
 .photos{
     display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
 }
 .images{
- width:100%;
+ width:calc(33.3% - 20px);
+}
+.images img{
+    width:100%;
 }
