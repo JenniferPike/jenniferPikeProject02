@@ -7,3 +7,19 @@
 .image2 img{
     box-shadow: -24px 25px $accent1;
 }
+.travelContainer{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.info1and2{
+    width: 40%;
+    padding:40px;
+}
+.image1{
+    transform: translateY(-67px);
+}
+.image2{
+    transform: translateY(65px);
+}

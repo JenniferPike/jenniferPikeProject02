@@ -2,7 +2,7 @@
     color:white;
     background:$accent2;
     border:none;
-    padding:14px 355px;
+    padding:2% 35%;
     margin-bottom:110px;
 }
 .blogForm{
@@ -11,4 +11,20 @@
 form .comment{
     border:2px solid $accent1;
     padding:5% 50% 14% 10%;
+}
+.commentSection{
+    padding-left:83px;
+}
+.comments{
+    display:flex;
+    flex-direction: row;
+}
+.comments h3{
+    margin:0;
+}
+.commentAndDate{
+    width:50%;
+}
+.profileImg{
+    padding-right:25px;
 }
