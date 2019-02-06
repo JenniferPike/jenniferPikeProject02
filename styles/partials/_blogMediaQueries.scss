@@ -72,10 +72,13 @@
     .blogArticle{
         width:725px;
     }
+    .blogImage{
+        transform:none;
+    }
 }
 @media (max-width: 768px) {
     .blogHeader{
-        min-height:20vh;
+        min-height:47vh;
     }
     .blogContainer{
         height:23vh;
@@ -128,7 +131,7 @@
     }
     .blogContainer{
         justify-content: flex-start;
-        height:9vh;
+        height:21vh;
     }
     .contactBar{
         flex-direction:row;

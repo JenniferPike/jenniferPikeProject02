@@ -822,8 +822,8 @@ form .comment {
 
 @media (max-width: 940px) {
   .indexHeader {
-    background-size: contain;
-    height: 36vh;
+    background-size: unset;
+    height: 46vh;
     -webkit-transition: height 3s;
     -o-transition: height 3s;
     transition: height 3s; }
@@ -949,7 +949,7 @@ form .comment {
 @media (max-width: 671px) {
   .indexTitle h1 {
     top: 50px;
-    font-size: 83.2px; }
+    font-size: 64.2px; }
   .welcome {
     font-size: 51px; }
   .indexHeader {
@@ -985,7 +985,7 @@ form .comment {
   .mainInfo {
     width: 100%; }
   .indexHeader {
-    height: 25vh; }
+    height: 34vh; }
   .menuOptions {
     min-height: 238px; } }
 
@@ -1017,7 +1017,7 @@ form .comment {
 @media (max-width: 480px) {
   .indexTitle h1 {
     top: 41px;
-    font-size: 49.2px; }
+    font-size: 43.2px; }
   .welcome {
     font-size: 35px; }
   .indexTitle {
@@ -1044,7 +1044,15 @@ form .comment {
     display: none; }
   .freeTripInfo {
     min-height: 669px;
-    padding: 40px; } }
+    padding: 40px; }
+  .mainInfo {
+    min-height: 609px; } }
+
+@media (max-width: 363px) {
+  .mainInfo {
+    min-height: 730px; }
+  .freeTripInfo {
+    min-height: 800px; } }
 
 @media (max-width: 320px) {
   .indexTitle {
@@ -1141,11 +1149,15 @@ form .comment {
 
 @media (max-width: 831px) {
   .blogArticle {
-    width: 725px; } }
+    width: 725px; }
+  .blogImage {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; } }
 
 @media (max-width: 768px) {
   .blogHeader {
-    min-height: 20vh; }
+    min-height: 47vh; }
   .blogContainer {
     height: 23vh;
     -ms-flex-pack: distribute;
@@ -1195,7 +1207,7 @@ form .comment {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    height: 9vh; }
+    height: 21vh; }
   .contactBar {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

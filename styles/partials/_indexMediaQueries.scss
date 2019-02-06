@@ -92,8 +92,8 @@
 @media (max-width: 940px){
 
     .indexHeader{
-        background-size:contain;
-        height:36vh;
+        background-size:unset;
+        height:46vh;
         transition:height 3s;
     }
     .contactBar{
@@ -239,7 +239,7 @@
 @media (max-width: 671px){
     .indexTitle h1{
         top:50px;
-        font-size:83.2px;
+        font-size:64.2px;
     }
     .welcome{
         font-size:51px;
@@ -280,7 +280,7 @@
         width:100%;
     }
     .indexHeader{
-        height:25vh;
+        height:34vh;
     }
     .menuOptions {
     min-height: 238px;
@@ -312,7 +312,7 @@
 @media (max-width: 480px) {
     .indexTitle h1{
         top:41px;
-        font-size:49.2px;
+        font-size:43.2px;
     }
     .welcome{
         font-size:35px;
@@ -342,6 +342,17 @@
     .freeTripInfo{
         min-height:669px;
         padding:40px;
+    }
+    .mainInfo {
+        min-height: 609px;
+    }
+}
+@media(max-width:363px){
+    .mainInfo {
+        min-height: 730px;
+    }
+    .freeTripInfo {
+        min-height: 800px;
     }
 }
 @media(max-width:320px){
