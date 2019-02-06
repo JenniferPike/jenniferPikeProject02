@@ -79,8 +79,58 @@
         padding: 90px 18px;
         min-height: 102px;
     }
+    .contactH1{
+        display:none;
+    }
+}
+@media (max-width:697px){
+
+    .flexContainer{
+        flex-direction: column;
+        justify-content: center;
+        height:659px;
+    }
+    .commentForm{
+        width:83%;
+        margin:5%;
+        min-height:309px;
+        padding:51px 18px;
+        transform:none;
+    }
+    .contactForm{
+        padding: 1% 42%;
+    }
+    .message{
+       padding: 4% 45% 4% 5%;
+    }
+    .contactHeader{
+        min-height:27vh;
+    }
+    .mediaContactContainer{
+        align-self: center;
+    }
+
+}
+@media (max-width:697px){
+    .flexContainer{
+        margin-bottom:6%;
+    }
+    .message {
+        padding: 4% 24% 4% 5%;
+    }
+    .commentForm{
+        padding: 30px 42px;
+    }
+    .contactForm {
+        padding: 1% 36%;
+    }
 }
 @media (max-width: 480px) {
+    .contactHeader{
+        min-height:26vh;
+    }
+
+    
 }
 @media(max-width:320px){
 }
