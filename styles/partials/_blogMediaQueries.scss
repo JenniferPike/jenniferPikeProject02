@@ -48,6 +48,31 @@
         min-height:52vh;
     }
 }
+@media (max-width: 900px){
+    .blogArticle{
+        width:870px;
+    }
+}
+@media (max-width: 874px){
+    .blogArticle{
+        width:820px;
+    }
+    .blogInfo{
+        width:85%;
+        padding-left:100px;
+    }
+    .blogImage img{
+        transform: translateY(-18px);
+    }
+    .blogHeader{
+        min-height:39vh;
+    }
+}
+@media(max-width: 831px){
+    .blogArticle{
+        width:725px;
+    }
+}
 @media (max-width: 768px) {
 }
 @media (max-width: 480px) {

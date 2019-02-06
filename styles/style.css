@@ -393,7 +393,7 @@ ul {
 
 .menuOptions {
   background-color: #FAFFFE;
-  min-height: 640px; }
+  max-height: 640px; }
 
 .menuItem a {
   text-decoration: none; }
@@ -823,7 +823,7 @@ form .comment {
 @media (max-width: 940px) {
   .indexHeader {
     background-size: contain;
-    height: 55vh;
+    height: 36vh;
     -webkit-transition: height 3s;
     -o-transition: height 3s;
     transition: height 3s; }
@@ -854,11 +854,83 @@ form .comment {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
   .menuOptions {
-    height: 673px; }
+    min-height: 673px; }
   .menuContainer {
     padding-top: 33px; }
   .freeTripInfo {
     padding: 70px; } }
+
+@media (max-width: 915px) {
+  .menuOptions {
+    min-height: 802px; } }
+
+@media (max-width: 900px) {
+  .info1and2 {
+    padding: 36px 0 21px 8px;
+    margin: 0 auto;
+    width: 63%; }
+  .travelContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .image1, .image2 {
+    width: 64%;
+    margin: 0 auto; }
+  .photoGallery {
+    min-height: 514px; }
+  .menuOptions {
+    height: 800px; }
+  .menuContainer {
+    padding-top: 18px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: columm;
+    flex-direction: columm; }
+  .menuItem {
+    width: 100%;
+    padding: 0px 11px 0px 13px; }
+  .banner {
+    background-size: contain;
+    min-height: 281px; }
+  .travelStories {
+    padding-bottom: 20px; }
+  .freeTripInfo {
+    max-height: 485px; } }
+
+@media (max-width: 867px) {
+  .indexTitle h1 {
+    top: 115px;
+    left: 70px; } }
+
+@media (max-width: 850px) {
+  .mainInfo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 19px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-height: 472px; }
+  .visitInfo {
+    width: 91%;
+    padding: 0; }
+  .indexImage {
+    display: none; }
+  .visitImg {
+    display: none; } }
+
+@media (max-width: 831px) {
+  .indexTitle h1 {
+    top: 91px;
+    left: 46px; } }
+
+@media (max-width: 800px) {
+  .indexTitle h1 {
+    left: 20px;
+    font-size: 93.2px; } }
 
 @media (max-width: 768px) {
   .topNav {
@@ -869,6 +941,137 @@ form .comment {
     display: block; }
   .topNav ul {
     display: none; } }
+
+@media (max-width: 736px) {
+  .menuOptions {
+    height: 913px; } }
+
+@media (max-width: 671px) {
+  .indexTitle h1 {
+    top: 50px;
+    font-size: 83.2px; }
+  .welcome {
+    font-size: 51px; }
+  .indexHeader {
+    height: 39vh; }
+  .photoGallery {
+    min-height: 431px; }
+  .menuItem p {
+    display: none; }
+  .menuItem {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 49%;
+    padding: 9px 16px 0 7px; }
+  .menuOptions {
+    height: 186px; }
+  .info1and2 {
+    width: 80%; }
+  .image1 {
+    width: 76%; }
+  .banner {
+    min-height: 244px; } }
+
+@media (max-width: 666px) {
+  .contactBar {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .mainInfo {
+    width: 100%; }
+  .indexHeader {
+    height: 25vh; }
+  .menuOptions {
+    min-height: 238px; } }
+
+@media (max-width: 600px) {
+  .mainInfo {
+    min-height: 552px; }
+  .photos {
+    padding-top: 22px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .images {
+    width: 55%;
+    padding: 17px; }
+  .menuOptions {
+    height: 305px; }
+  .menuItem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .freeTripInfo {
+    min-height: 561px; } }
+
+@media (max-width: 480px) {
+  .indexTitle h1 {
+    top: 41px;
+    font-size: 49.2px; }
+  .welcome {
+    font-size: 35px; }
+  .indexTitle {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .indexHeader {
+    height: 30vh; }
+  .images {
+    width: 64%; }
+  .menuContainer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .menuInfo {
+    display: none; }
+  .icons {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin: 26px; }
+  .banner {
+    display: none; }
+  .freeTripInfo {
+    min-height: 669px;
+    padding: 40px; } }
+
+@media (max-width: 320px) {
+  .indexTitle {
+    display: none; }
+  .indexHeader {
+    height: 18vh; }
+  .contactBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .mainInfo {
+    min-height: 738px; }
+  .images {
+    width: 90%; }
+  .menuItem a {
+    font-size: 44px; }
+  .icons {
+    min-width: 77px;
+    min-height: 62px; }
+  .info1and2 p {
+    display: none; }
+  .freeTripInfo {
+    min-height: 924px; } }
 
 @media (max-width: 1360px) {
   .blogForm .placeholderStyle:nth-child(2) {
@@ -918,6 +1121,27 @@ form .comment {
   .blogHeader {
     background-size: contain;
     min-height: 52vh; } }
+
+@media (max-width: 900px) {
+  .blogArticle {
+    width: 870px; } }
+
+@media (max-width: 874px) {
+  .blogArticle {
+    width: 820px; }
+  .blogInfo {
+    width: 85%;
+    padding-left: 100px; }
+  .blogImage img {
+    -webkit-transform: translateY(-18px);
+    -ms-transform: translateY(-18px);
+    transform: translateY(-18px); }
+  .blogHeader {
+    min-height: 39vh; } }
+
+@media (max-width: 831px) {
+  .blogArticle {
+    width: 725px; } }
 
 @media (max-width: 1360px) {
   .mediaContactContainer {
@@ -978,5 +1202,64 @@ form .comment {
   .mediaContactContainer {
     -ms-flex-item-align: start;
     align-self: flex-start; } }
+
+@media (max-width: 768px) {
+  .blogHeader {
+    min-height: 20vh; }
+  .blogContainer {
+    height: 23vh;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0px 0 0 37px; } }
+
+@media (max-width: 738px) {
+  .blogArticle {
+    width: 619px; }
+  .blogInfo {
+    width: 96%;
+    padding-left: 83px; } }
+
+@media (max-width: 480px) {
+  .blogH1 {
+    display: none; }
+  .blogArticle {
+    width: 426px; }
+  .blogInfo {
+    padding-left: 33px; }
+  .sideBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .sideBarImg {
+    width: 52%; }
+  .comments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .commentAndDate {
+    width: 90%; }
+  form .comment {
+    padding: 5% 19% 5% 2%; }
+  .submitStyle {
+    padding: 2% 25%; } }
+
+@media (max-width: 320px) {
+  .logo {
+    font-size: 24.6px; }
+  .blogContainer {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+  .contactBar {
+    padding-bottom: 85px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; } }
 
 /*# sourceMappingURL=style.css.map */

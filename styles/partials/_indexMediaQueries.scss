@@ -93,7 +93,7 @@
 
     .indexHeader{
         background-size:contain;
-        height:55vh;
+        height:36vh;
         transition:height 3s;
     }
     .contactBar{
@@ -131,7 +131,7 @@
         justify-content: space-around;
     }
     .menuOptions{
-        height:673px;
+        min-height:673px;
     }
     .menuContainer{
         padding-top:33px;
@@ -140,8 +140,88 @@
         padding:70px;
     }
 }
+@media (max-width: 915px){
+    .menuOptions{
+        min-height:802px;
+    }
+}
+@media (max-width: 900px) {
+    .info1and2{
+        padding: 36px 0 21px 8px;
+        margin: 0 auto;
+        width:63%;
+    }
+    .travelContainer{
+        flex-direction: column;
+    }
+    .image1, .image2{
+        width:64%;
+        margin:0 auto;
+    }
+    .photoGallery{
+        min-height:514px; 
+    }
+    .menuOptions{
+        height:800px;
+    }
+    .menuContainer{
+        padding-top:18px;
+        flex-direction:columm;
+    }
+    .menuItem{
+        width:100%;
+        padding: 0px 11px 0px 13px;
+    }
+    .banner{
+        background-size: contain;
+        min-height:281px;
+    }
+    .travelStories{
+        padding-bottom:20px;
+    }
+    .freeTripInfo{
+        max-height:485px;
+    }
+}
+@media (max-width: 867px){
+.indexTitle h1{
+        top:115px;
+        left:70px;
+    }
+}
+@media (max-width: 850px) {
+    
+    .mainInfo{
+        flex-direction:column;
+        padding-top:19px;
+        align-items:center;
+        max-height:472px;
+    }
+    .visitInfo{
+        width:91%;
+        padding:0;
+    }
+    .indexImage{
+        display:none;
+    }
+    .visitImg{
+        display:none;
+    }
+}
+@media(max-width: 831px){
+    .indexTitle h1{
+        top:91px;
+        left:46px;
+    }
+}
+@media(max-width: 800px){
+    .indexTitle h1{
+        left:20px;
+        font-size: 93.2px;
+    }
+}
 @media (max-width: 768px) {
-    .topNav {
+    .topNav{
         display:flex;
     }
    .topNav button{
@@ -151,7 +231,147 @@
         display:none;
     }  
 }
+@media (max-width: 736px){
+    .menuOptions{
+        height:913px;
+    }
+}
+@media (max-width: 671px){
+    .indexTitle h1{
+        top:50px;
+        font-size:83.2px;
+    }
+    .welcome{
+        font-size:51px;
+    }
+    .indexHeader{
+        height:39vh;
+    }
+    .photoGallery{
+        min-height:431px;
+    }
+    .menuItem p{
+        display:none;
+    }
+    .menuItem{
+        justify-content: start;
+        flex-direction: row;
+        width:49%;
+        padding:9px 16px 0 7px;
+    }
+    .menuOptions{
+        height:186px;
+    }
+    .info1and2{
+        width:80%;
+    }
+    .image1{
+        width:76%;
+    }
+    .banner{
+        min-height:244px;
+    }
+}
+@media (max-width: 666px){
+    .contactBar{
+        justify-content: center;
+    }
+    .mainInfo{
+        width:100%;
+    }
+    .indexHeader{
+        height:25vh;
+    }
+    .menuOptions {
+    min-height: 238px;
+}
+}
+@media (max-width: 600px){
+    .mainInfo{
+        min-height:552px;
+    }
+    .photos{
+        padding-top:22px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images{
+        width:55%;
+        padding:17px;
+    }
+    .menuOptions{
+        height:305px;
+    }
+    .menuItem{
+        flex-direction: column;
+    }
+    .freeTripInfo{
+        min-height:561px;
+    }
+}
 @media (max-width: 480px) {
+    .indexTitle h1{
+        top:41px;
+        font-size:49.2px;
+    }
+    .welcome{
+        font-size:35px;
+    }
+    .indexTitle{
+        justify-content: center;
+    }
+    .indexHeader{
+        height:30vh;
+    }
+    .images{
+        width:64%;
+    }
+    .menuContainer{
+        flex-direction: row;
+    }
+    .menuInfo{
+        display:none;
+    }
+    .icons{
+        align-self:center;
+        margin:26px;
+    }
+    .banner{
+        display:none;
+    }
+    .freeTripInfo{
+        min-height:669px;
+        padding:40px;
+    }
 }
 @media(max-width:320px){
+    .indexTitle{
+        display:none;
+    }
+    .indexHeader{
+        height:18vh;
+    }
+    .contactBar{
+        flex-direction: column;
+        align-items:center;
+    }
+    .mainInfo{
+        min-height:738px;
+    }
+    .images{
+        width:90%;
+    }
+    .menuItem a{
+        font-size:44px;
+    }
+    .icons{
+        min-width:77px;
+        min-height:62px;
+    }
+    .info1and2 p {
+        display:none;
+    }
+    .freeTripInfo{
+        min-height:924px;
+    }
 }
