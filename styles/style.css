@@ -1299,6 +1299,12 @@ form .comment {
     -ms-flex-item-align: start;
     align-self: flex-start; } }
 
+@media (max-width: 844px) {
+  .message {
+    padding: 3% 22% 14% 10%; }
+  .contactForm {
+    padding: 1% 38%; } }
+
 @media (max-width: 768px) {
   .contactHeader {
     min-height: 36vh; }

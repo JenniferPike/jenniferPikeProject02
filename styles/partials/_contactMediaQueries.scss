@@ -64,6 +64,14 @@
         align-self: flex-start;
     }
 }
+@media(max-width:844px){
+    .message {
+        padding: 3% 22% 14% 10%;
+    }
+    .contactForm{
+        padding: 1% 38%;
+    }
+}
 
 @media (max-width: 768px) {
     .contactHeader{
@@ -82,16 +90,13 @@
         transform:none;
     }
 }
-@media (max-width:724px){
-    
-}
 @media (max-width:697px){
-
     .flexContainer{
         flex-direction: column;
         justify-content: center;
         height:659px;
     }
+    
     .commentForm{
         width:83%;
         margin:5%;
