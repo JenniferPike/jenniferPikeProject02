@@ -1143,6 +1143,88 @@ form .comment {
   .blogArticle {
     width: 725px; } }
 
+@media (max-width: 768px) {
+  .blogHeader {
+    min-height: 20vh; }
+  .blogContainer {
+    height: 23vh;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0px 0 0 37px; } }
+
+@media (max-width: 738px) {
+  .blogArticle {
+    width: 619px; }
+  .blogInfo {
+    width: 96%;
+    padding-left: 83px; } }
+
+@media (max-width: 480px) {
+  .blogH1 {
+    display: none; }
+  .blogArticle {
+    width: 426px; }
+  .blogInfo {
+    padding-left: 33px; }
+  .sideBar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .sideBarImg {
+    width: 52%; }
+  .comments {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .commentAndDate {
+    width: 90%; }
+  form .comment {
+    padding: 5% 19% 5% 2%; }
+  .submitStyle {
+    padding: 2% 25%; } }
+
+@media (max-width: 320px) {
+  .logo {
+    font-size: 24.6px; }
+  .blogHeader {
+    min-height: 10vh; }
+  .blogContainer {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    height: 9vh; }
+  .contactBar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+  .blogArticle {
+    width: 299px; }
+  .sideBarImg {
+    width: 75%; }
+  .sideBarInfo {
+    width: 78%; }
+  .commentSection {
+    padding-left: 17px; }
+  .profileImg {
+    padding: 18px; }
+  .commentAndDate {
+    width: 90%; }
+  form .comment {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5% 0% 5% 2%; }
+  .submitStyle {
+    padding: 2% 20%; }
+  .blogForm {
+    padding-top: 40px; } }
+
 @media (max-width: 1360px) {
   .mediaContactContainer {
     width: 278px;
@@ -1204,62 +1286,15 @@ form .comment {
     align-self: flex-start; } }
 
 @media (max-width: 768px) {
-  .blogHeader {
-    min-height: 20vh; }
-  .blogContainer {
-    height: 23vh;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    padding: 0px 0 0 37px; } }
-
-@media (max-width: 738px) {
-  .blogArticle {
-    width: 619px; }
-  .blogInfo {
-    width: 96%;
-    padding-left: 83px; } }
-
-@media (max-width: 480px) {
-  .blogH1 {
-    display: none; }
-  .blogArticle {
-    width: 426px; }
-  .blogInfo {
-    padding-left: 33px; }
-  .sideBar {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
-  .sideBarImg {
-    width: 52%; }
-  .comments {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .commentAndDate {
-    width: 90%; }
-  form .comment {
-    padding: 5% 19% 5% 2%; }
-  .submitStyle {
-    padding: 2% 25%; } }
-
-@media (max-width: 320px) {
-  .logo {
-    font-size: 24.6px; }
-  .blogContainer {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start; }
-  .contactBar {
-    padding-bottom: 85px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row; } }
+  .contactHeader {
+    min-height: 36vh; }
+  .message {
+    padding: 4% 0% 14% 0%; }
+  .contactForm {
+    padding: 1% 32%; }
+  .commentForm {
+    width: 41%;
+    padding: 90px 18px;
+    min-height: 102px; } }
 
 /*# sourceMappingURL=style.css.map */
