@@ -363,7 +363,7 @@ ul {
   justify-content: space-between;
   min-height: 700px;
   width: calc(100% - 20px);
-  padding-top: 300px; }
+  padding-top: 229px; }
 
 .visitInfo {
   width: 62%;
@@ -1052,7 +1052,11 @@ form .comment {
   .mainInfo {
     min-height: 730px; }
   .freeTripInfo {
-    min-height: 800px; } }
+    min-height: 850px; } }
+
+@media (max-width: 340px) {
+  .freeTripInfo {
+    min-height: 911px; } }
 
 @media (max-width: 320px) {
   .indexTitle {

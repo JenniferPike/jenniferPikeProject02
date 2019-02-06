@@ -352,7 +352,12 @@
         min-height: 730px;
     }
     .freeTripInfo {
-        min-height: 800px;
+        min-height: 850px;
+    }
+}
+@media(max-width:340px){
+    .freeTripInfo {
+        min-height: 911px;
     }
 }
 @media(max-width:320px){
