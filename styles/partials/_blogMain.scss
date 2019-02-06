@@ -33,7 +33,7 @@
 .sideBar{
     width: 68%;
     align-items: flex-end;
-    margin-left: 240px;
+    margin-left: auto;
 }
 .sideBarImg img{
     width:100%;
@@ -44,4 +44,21 @@
 .blogStories{
     display:flex;
     flex-direction: column;
+}
+.singleLink {
+    color:$fcSecondary;
+    text-decoration: none;
+}
+.singleLink:hover{
+    color:$accent1;
+}
+// got help with this from StackOverflow link: https://stackoverflow.com/questions/28773501/pseudo-class-before-create-css-circle
+.blogStories a::before{
+    content:'';
+    background-color:$accent1;
+    display: inline-block;
+    width: 0;
+    border-radius:50%;
+    padding:6px;
+    margin: 0px 9px 1px 0px;
 }

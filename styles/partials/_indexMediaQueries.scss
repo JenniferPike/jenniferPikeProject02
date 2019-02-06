@@ -1,12 +1,147 @@
 //MEDIA QUERIES
 @media(max-width:1360px){
     .wrapper{
-        width:1100px;
-        transition:width 5s;
+        width:1000px;
+        transition:width 3s;
+    }
+    .mainInfo{
+        padding-top:223px;
+        transition:padding-top 3s;
+    }
+    .indexImage{
+        top:306px;
+        transition:top 3s;
+    }
+    .photos{
+        padding-top:141px;
+        transition:padding-top 3s;
+    }
+    .menuOptions{
+        height:673px;
+        transition:height 3s;
+    }
+    .info1and2{
+        width: 43%;
+        padding: 63px;
+        transition:padding 3s;
+        transition:width 3s;
+    }
+}
+@media (max-width: 1300px){
+    .menuOptions{
+        height:778px;
+        transition:height 3s;
+    }
+    .menuItem{
+        width:50%;
+        transition:width 3s;
+    }
+    .mainInfo{
+        padding-top:156px;
+        transition:padding-top 3s;
+    }
+}
+@media (max-width:1189px){
+    .image2{
+            transform: translateY(120px);
+            transition:translate 3s;
+        }
+}
+@media (max-width:1176px){
+    .info1and2{
+        width:42%;
+        padding:41px;
+    }
+}
+@media (max-width:1100px){
+    .indexTitle h1{
+        top:300px;
+        transition:top 3s;
+    }
+    .mainInfo{
+        padding-top:182px;
+        transition:padding 3s;
+    }
+    .image1 img, .image2 img{
+        width:100%;
+    }
+    .image1, .image2{
+        width:43%;
+        transform:none;
+    }
+    .travelContainer{
+        padding:35px 0;
+        flex-direction:row;
+    }
+    .info1and2{
+        width:46%;
+        padding:3px 0 27px 8px;
+    }
+}
+@media (max-width:1000px){
+   .wrapper{
+       width:100%;
+   }
+    .contactBar{
+       padding-left:37px;
+    }
+    .indexTitle{
+        justify-content: space-between;
     }
 }
 @media (max-width: 940px){
-  .topNav {
+
+    .indexHeader{
+        background-size:contain;
+        height:55vh;
+        transition:height 3s;
+    }
+    .contactBar{
+        justify-content: space-around;
+    }
+    .indexImage img{
+        width:100%;
+    }
+    .indexImage{
+        top:115px;
+        width:44%;
+    }
+    .indexTitle h1{
+        top:52px;
+    }
+    .mainInfo{
+        padding-top:79px;
+        min-height:628px;
+    }
+    .visitImg img{
+        width:100%;
+    }
+    .visitImg{
+        width:37%;
+    }
+    .visitInfo{
+        width:62%;
+        padding:19px;
+    }
+    .photoGallery{
+        min-height:550px;
+    }
+    .photos{
+        padding-top:111px;
+        justify-content: space-around;
+    }
+    .menuOptions{
+        height:673px;
+    }
+    .menuContainer{
+        padding-top:33px;
+    }
+    .freeTripInfo{
+        padding:70px;
+    }
+}
+@media (max-width: 768px) {
+    .topNav {
         display:flex;
     }
    .topNav button{
@@ -15,9 +150,6 @@
     .topNav ul{
         display:none;
     }  
-}
-@media (max-width: 768px) {
-    
 }
 @media (max-width: 480px) {
 }

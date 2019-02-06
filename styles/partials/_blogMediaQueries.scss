@@ -1,9 +1,52 @@
 @media(max-width:1360px){
-   .sideBar{
-       
+   .blogForm .placeholderStyle:nth-child(2){
+       margin-right:24%;
    }
+   .commentAndDate{
+       width:57%;
+   }
+    .sideBar{
+        margin:auto;
+        width:100%;
+    }
+}
+@media (max-width: 1300px){
+    .blogForm .placeholderStyle:nth-child(2){
+       margin-right:19%;
+   }
+
+}
+@media (max-width: 1189px){
+    
+    .blogMain{
+        flex-direction: column;
+    }
+    .sideBar{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin:40px 0;
+    }
+    .sideBarImg{
+        width:36%;
+    }
+    .sideBarInfo{
+        align-self:center;
+        width:48%;
+    }
 }
 @media (max-width: 940px){
+    .blogForm .placeholderStyle:nth-child(2){
+        margin-right:14%;
+    }
+    .blogContainer{
+        padding:8px 0 0 13px;
+        height:30vh;
+    }
+    .blogHeader{
+        background-size:contain;
+        min-height:52vh;
+    }
 }
 @media (max-width: 768px) {
 }
