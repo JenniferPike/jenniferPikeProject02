@@ -44,7 +44,7 @@
         height:30vh;
     }
     .blogHeader{
-        background-size:contain;
+        background-size:unset;
         min-height:52vh;
     }
 }
@@ -89,13 +89,10 @@
     }
     .blogInfo {
         width: 96%;
-    padding-left: 83px;
+        padding-left: 83px;
     }
 }
 @media (max-width: 480px) {
-    .blogH1{
-        display:none;
-    }
     .blogArticle {
         width: 426px;
     }

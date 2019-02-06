@@ -42,7 +42,7 @@
         padding:0;
     }
     .contactHeader{
-        background-size: contain;
+        background-size: unset;
         min-height:53vh;
     }
     .flexContainer{
@@ -64,6 +64,7 @@
         align-self: flex-start;
     }
 }
+
 @media (max-width: 768px) {
     .contactHeader{
         min-height:36vh;
@@ -78,10 +79,11 @@
         width:41%;
         padding: 90px 18px;
         min-height: 102px;
+        transform:none;
     }
-    .contactH1{
-        display:none;
-    }
+}
+@media (max-width:724px){
+    
 }
 @media (max-width:697px){
 
@@ -95,7 +97,6 @@
         margin:5%;
         min-height:309px;
         padding:51px 18px;
-        transform:none;
     }
     .contactForm{
         padding: 1% 42%;
@@ -111,7 +112,7 @@
     }
 
 }
-@media (max-width:697px){
+@media (max-width:645px){
     .flexContainer{
         margin-bottom:6%;
     }
@@ -125,12 +126,46 @@
         padding: 1% 36%;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 487px) {
     .contactHeader{
-        min-height:26vh;
+        min-height:20vh;
     }
-
-    
+    .message {
+        padding: 4% 6% 4% 5%;
+    }
+    .headerContainer {
+        height: 8vh;
+    } 
+}
+@media (max-width: 440px){
+    .message {
+        padding: 4% 0% 4% 1%;
+    }
+    .commentForm {
+        padding: 16px 42px;
+        min-height: 244px;
+    }
+}
+@media (max-width: 378px){
+    .commentForm {
+        padding: 16px 2px;
+        width:88%;
+        margin:6%;
+    }
+    .contactForm {
+        padding: 1% 30%;
+    }
+    .flexContainer {
+        margin-bottom: 1%;
+    }
+    .headerContainer{
+        padding:10px 0 0 5px;
+    }
 }
 @media(max-width:320px){
+    .commentForm {
+        padding: 16px 0px;
+        width: 88%;
+        margin: 1%;
+    }
 }
